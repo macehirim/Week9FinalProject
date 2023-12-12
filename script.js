@@ -29,8 +29,8 @@ function deckBuilder() {
 deckBuilder();
 
 // Created shuffle function to shuffle through created cards in deck array, console logged
-// deck to show randomized cards with suits, face values and value.
-
+// deck to show randomized cards with suits, face values and value. Shuffle loops through
+// deck picking a random index to replace with the current index.
 
 function shuffle () {
         for (let i = 0; i < deck.length; i++) {
